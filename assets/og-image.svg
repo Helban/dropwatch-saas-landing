@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" font-family="'Space Grotesk', 'Segoe UI', sans-serif">
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <g transform="translate(96 150)">
+    <circle cx="22" cy="22" r="20" fill="none" stroke="#ffffff" stroke-width="5"/>
+    <path d="M37 37l16 16" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="22" cy="22" r="7" fill="#22C55E"/>
+    <text x="78" y="38" fill="#ffffff" font-size="40" font-weight="700">Dropwatch</text>
+  </g>
+  <text x="96" y="330" fill="#ffffff" font-size="72" font-weight="700">Never miss a price drop</text>
+  <text x="96" y="412" fill="#ffffff" font-size="72" font-weight="700">or a restock again</text>
+  <text x="96" y="486" fill="#94A3B8" font-size="34" font-weight="400">Watch any product page. Get alerted the moment it changes.</text>
+  <g transform="translate(96 524)">
+    <rect width="250" height="56" rx="12" fill="#22C55E"/>
+    <text x="125" y="37" fill="#0F172A" font-size="26" font-weight="600" text-anchor="middle">Start free, no card</text>
+  </g>
+</svg>

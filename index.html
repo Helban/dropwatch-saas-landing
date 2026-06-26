@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dropwatch — Price drop & back-in-stock alerts for any store</title>
+  <meta name="description" content="Dropwatch watches any product page and alerts you the moment the price drops or the item is back in stock. Paste a link, set your target, get notified by email, Telegram or Slack.">
+  <meta name="theme-color" content="#0F172A">
+  <link rel="canonical" href="https://dropwatch.helban.dev/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Dropwatch">
+  <meta property="og:title" content="Dropwatch — Price drop & back-in-stock alerts">
+  <meta property="og:description" content="Watch any product page. Get alerted the moment the price drops or the item is back in stock.">
+  <meta property="og:url" content="https://dropwatch.helban.dev/">
+  <meta property="og:image" content="https://dropwatch.helban.dev/assets/og-image.svg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Dropwatch",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Price drop and back-in-stock monitoring for any product page, with alerts by email, Telegram and Slack.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "1240"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Dropwatch home">
+        <svg class="brand-mark" width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M16 16l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="11" cy="11" r="2.5" fill="var(--accent)"/>
+        </svg>
+        <span>Dropwatch</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a class="btn btn-primary nav-cta" href="#pricing">Start free</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot" aria-hidden="true"></span> Watching 1.2M product pages</p>
+          <h1>Never miss a price drop or a restock again</h1>
+          <p class="lead">Paste a link to any product page. Dropwatch checks it around the clock and pings you the second the price falls below your target or the item comes back in stock.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#pricing">Start free, no card</a>
+            <a class="btn btn-ghost btn-lg" href="#how">See how it works</a>
+          </div>
+          <p class="hero-note">Free plan covers 5 watches. Cancel any time.</p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="watch-card">
+            <div class="watch-head">
+              <span class="store-chip">store.example/headphones</span>
+              <span class="status-live"><span class="pulse-dot"></span> live</span>
+            </div>
+            <div class="watch-body">
+              <div class="watch-thumb"></div>
+              <div class="watch-info">
+                <p class="watch-name">Studio Wireless Headphones</p>
+                <p class="watch-prices">
+                  <span class="price-old">$249</span>
+                  <span class="price-new">$169</span>
+                  <span class="drop-badge">-32%</span>
+                </p>
+              </div>
+            </div>
+            <svg class="spark" viewBox="0 0 240 64" preserveAspectRatio="none" role="img" aria-label="Price trend going down">
+              <polyline points="0,18 40,16 80,26 120,22 160,40 200,46 240,54" fill="none" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="toast">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 12l4 4 8-9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Price dropped to $169
+          </div>
+        </div>
+      </div>
+
+      <div class="container trust-strip">
+        <p class="trust-label">Tracks any storefront</p>
+        <ul class="trust-stores">
+          <li>Amazon</li><li>eBay</li><li>Allegro</li><li>Shopify stores</li><li>WooCommerce</li><li>Etsy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">Three steps, under a minute</h2>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num">1</span>
+            <h3>Paste a link</h3>
+            <p>Drop in the URL of the product you want. No browser extension, no account setup hoops.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">2</span>
+            <h3>Set your trigger</h3>
+            <p>Pick a target price or choose back-in-stock. Dropwatch re-checks the page on its own, day and night.</p>
+          </li>
+          <li class="step">
+            <span class="step-num">3</span>
+            <h3>Get the alert</h3>
+            <p>The moment your trigger hits, you get a message by email, Telegram or Slack with the live price.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Features</p>
+          <h2 id="features-title">Built to catch the moment that matters</h2>
+        </header>
+        <ul class="feature-grid">
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Price-drop alerts</h3>
+            <p>Set a target and get pinged the instant the price crosses it. No more refreshing tabs.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M6 7l1 12a2 2 0 002 2h6a2 2 0 002-2l1-12M9 7V5a3 3 0 016 0v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Back-in-stock alerts</h3>
+            <p>Watch sold-out items and be first in line the moment they return.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3a14 14 0 010 18 14 14 0 010-18" stroke="currentColor" stroke-width="2"/></svg>
+            </span>
+            <h3>Any store</h3>
+            <p>If a product has a public page, Dropwatch can watch it. No per-store integration needed.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 5h16v11H8l-4 3V5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Alerts where you are</h3>
+            <p>Email, Telegram and Slack out of the box. Pick one or send to all three.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19V5M4 19h16M8 16l4-6 3 3 4-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Price history</h3>
+            <p>See the full price curve before you buy, so a fake discount never fools you.</p>
+          </li>
+          <li class="feature">
+            <span class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M13 3L4 14h7l-1 7 9-11h-7l1-7z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <h3>Fast checks</h3>
+            <p>Pro watches re-check as often as every 5 minutes, so you catch flash sales in time.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title">Start free, upgrade when you need more</h2>
+          <div class="billing-toggle" role="group" aria-label="Billing period">
+            <button class="billing-option is-active" data-billing="monthly" aria-pressed="true">Monthly</button>
+            <button class="billing-option" data-billing="annual" aria-pressed="false">Annual <span class="save-pill">save 20%</span></button>
+          </div>
+        </header>
+
+        <ul class="plan-grid">
+          <li class="plan">
+            <h3 class="plan-name">Free</h3>
+            <p class="plan-price"><span class="amount" data-monthly="$0" data-annual="$0">$0</span><span class="per">/mo</span></p>
+            <p class="plan-sub">For trying it out</p>
+            <ul class="plan-features">
+              <li>5 active watches</li>
+              <li>Daily checks</li>
+              <li>Email alerts</li>
+              <li>7-day price history</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="#">Start free</a>
+          </li>
+
+          <li class="plan plan-featured">
+            <p class="plan-tag">Most popular</p>
+            <h3 class="plan-name">Pro</h3>
+            <p class="plan-price"><span class="amount" data-monthly="$9" data-annual="$7">$9</span><span class="per">/mo</span></p>
+            <p class="plan-sub">For serious deal hunters</p>
+            <ul class="plan-features">
+              <li>100 active watches</li>
+              <li>Checks every 5 minutes</li>
+              <li>Email, Telegram & Slack</li>
+              <li>Full price history</li>
+            </ul>
+            <a class="btn btn-primary btn-block" href="#">Start Pro</a>
+          </li>
+
+          <li class="plan">
+            <h3 class="plan-name">Business</h3>
+            <p class="plan-price"><span class="amount" data-monthly="$29" data-annual="$23">$29</span><span class="per">/mo</span></p>
+            <p class="plan-sub">For teams and resellers</p>
+            <ul class="plan-features">
+              <li>1,000 active watches</li>
+              <li>Checks every minute</li>
+              <li>Webhook & API access</li>
+              <li>Shared team workspace</li>
+            </ul>
+            <a class="btn btn-outline btn-block" href="#">Contact sales</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="faq" aria-labelledby="faq-title">
+      <div class="container container-narrow">
+        <header class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Questions, answered</h2>
+        </header>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Which stores does Dropwatch support?</summary>
+            <p>Any store with a public product page. There is no per-store setup: you paste the link and Dropwatch reads the live price and stock status from the page itself.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How fast are the alerts?</summary>
+            <p>Free watches are checked daily. Pro re-checks every 5 minutes and Business every minute, so flash sales and short restocks still reach you in time.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need a browser extension?</summary>
+            <p>No. Dropwatch runs in the cloud. There is nothing to install and nothing running on your machine.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Where do alerts arrive?</summary>
+            <p>Email on every plan, plus Telegram and Slack from Pro upward. You can send a single watch to more than one channel.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I cancel any time?</summary>
+            <p>Yes. Plans are month to month, and downgrading back to Free keeps your existing watches up to the Free limit.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <h2>Put your deal hunting on autopilot</h2>
+        <p>Add your first watch in under a minute. The free plan never expires.</p>
+        <a class="btn btn-primary btn-lg" href="#pricing">Start free, no card</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="#top" aria-label="Dropwatch home">
+          <svg class="brand-mark" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+            <path d="M16 16l5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="11" cy="11" r="2.5" fill="var(--accent)"/>
+          </svg>
+          <span>Dropwatch</span>
+        </a>
+        <p>Price and stock monitoring for any store.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>Demo project. Not a real service.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
